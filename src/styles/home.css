@@ -1,0 +1,85 @@
+.home-page-wrapper {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    gap: 40px;
+    align-items: center;
+    width: 90%;
+}
+
+.cta-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta-text-wrapper h1 {
+    letter-spacing: 0.15em;
+    font-size: 4em;
+    color: orange;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.cta-image {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+    border-right: 5px solid orange;
+    border-bottom: 5px solid orange;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.call-to-action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cta-button a {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out
+}
+
+.cta-button a {
+    color: white;
+}
+
+.register-button a {
+    background-color: orange;
+}
+
+.register-button a:hover {
+    background-color: rgb(227, 148, 1);
+}
+
+.login-button a {
+    border: 1px solid orange;
+}
+
+.login-button a:hover {
+    background-color: orange;
+}
+
+@media screen and (max-width: 600px) {
+    .home-page-wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .cta-image {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .call-to-action-buttons {
+        justify-content: center;
+    }
+
+}

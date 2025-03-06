@@ -1,0 +1,105 @@
+.recipe-card {
+    background-color: black;
+    position: relative;
+    border-radius: 10px;
+}
+
+.name, .recipe-card img {
+    cursor: pointer;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.recipe-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px 15px 15px 15px;
+}
+
+.recipe-tags {
+    display: flex;
+    overflow-x: hidden;
+    gap: 10px;
+}
+
+.tag {
+    background-color: orange;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: white;
+    text-wrap: nowrap;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.name {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.name:hover {
+    text-decoration: underline;
+}
+
+.recipe-feedback {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.rating {
+    padding-right: 10px;
+    border-right: 1px solid gray
+}
+
+.favorite-button-wrapper {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.favorite-button-wrapper svg {
+    transform: translateY(1px);
+}
+
+.favorite-button-wrapper svg g path {
+    fill: black;
+    transition: all 0.1s ease-in-out;
+}
+
+.favorite-button-wrapper svg g {
+    stroke: orange;
+    transition: all 0.1s ease-in-out;
+}
+
+.favorite-button-wrapper:hover svg g path{
+    fill: orange;
+}
+
+.favorite-button-wrapper:hover svg g {
+    stroke: orange
+}
+
+.favorited svg g path {
+    stroke: orange;
+    fill: orange;
+}
+
+.favorite-button-wrapper:active {
+    scale: 0.9;
+}

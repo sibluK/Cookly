@@ -1,0 +1,16 @@
+body {
+    margin: 0 auto;
+    max-width: 1380px;
+    padding: 0 10%;
+}
+
+.content {
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 0 2%;
+    }
+}
+

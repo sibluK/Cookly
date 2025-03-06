@@ -1,0 +1,30 @@
+.recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.page-header {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    border-bottom: 1px solid orange;
+}
+
+.load-more-button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+
+.load-more-button:hover {
+    background-color: black;
+    outline: 2px solid orange;
+    color: white;
+}

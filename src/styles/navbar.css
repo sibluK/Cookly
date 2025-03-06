@@ -1,0 +1,84 @@
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: orange;
+    padding: 0 20px;
+    height: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav-links-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-link a {
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-username {
+    color: white;
+    font-weight: 500;
+}
+
+.app-name a {
+    font-size: 1.2em;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logout-button {
+    background-color: black;
+    padding: 4px 10px;
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+
+}
+
+.logout-button:hover {
+    background-color: orange;
+    outline: 2px solid black;
+}
+
+.logout-button:hover svg {
+    fill: black;
+    stroke: black;
+}
+
+.logout-button:hover a {
+    color: black;
+}
+
+.logout-button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0 10px 10px;
+        font-size: 0.9em;
+        height: fit-content;
+        gap: 7px;
+    }
+}
