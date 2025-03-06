@@ -34,7 +34,7 @@ export default function RecipeDetail() {
                 <>
                     <h2 className="page-header">{recipe.name}</h2>
                     <div className="recipe-detail-wrapper">
-                        <div className="recipe-information">
+                        <div className="recipe-details">
                             <div className="meta-card-wrapper">
                                 <div className="meta-card">
                                     <span className="meta-title">Servings</span>
@@ -49,7 +49,7 @@ export default function RecipeDetail() {
                                     <span className="meta-value">{recipe.cookTimeMinutes} minutes</span>
                                 </div>
                                 <div className="meta-card">
-                                    <span className="meta-title">Calories</span>
+                                    <span className="meta-title">Calories/Serving</span>
                                     <span className="meta-value">{recipe.caloriesPerServing} kcal</span>
                                 </div>
                                 <div className="meta-card">
