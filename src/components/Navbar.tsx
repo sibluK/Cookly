@@ -21,13 +21,13 @@ export default function Navbar() {
             <div className='nav-links-wrapper'>
                 {isAuthenticated ? (
                     <>
-                        <div className='nav-link'>
+                        <div className='nav-link animated-text-underline'>
                             <Link to={"/dashboard"}>Dashboard</Link>
                         </div>
-                        <div className='nav-link'>
+                        <div className='nav-link animated-text-underline'>
                             <Link to={"/favorites"}>Favorites</Link>
                         </div>
-                        <div className='nav-username'>{user?.username}</div>
+                        <div className='nav-username nav-link animated-text-underline'>{user?.username}</div>
                         <div className='logout-button'>
                             <Link to={"/logout"}>
                                 Logout

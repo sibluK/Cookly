@@ -49,7 +49,7 @@ export default function RecipeCard({recipe, favoriteRecipes, setFavoriteRecipes}
                         <span className="tag" key={index}>{tag}</span>
                     ))}
                 </div>
-                <span className="name" onClick={HandleRecipeClick}>{recipe.name}</span>
+                <span className="name animated-text-underline" onClick={HandleRecipeClick}>{recipe.name}</span>
                 <div className="recipe-feedback">
                     <span className="rating">{recipe.rating}</span>
                     <span className="review-count">{recipe.reviewCount} ratings</span>
