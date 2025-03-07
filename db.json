@@ -19,137 +19,14 @@
       "id": "df2d",
       "username": "user4",
       "password": "user4"
+    },
+    {
+      "id": "b5c3",
+      "username": "test",
+      "password": "test"
     }
   ],
   "favorite-recipes": [
-    {
-      "id": "6075",
-      "userId": "2f2b",
-      "recipe": {
-        "id": 1,
-        "name": "Classic Margherita Pizza",
-        "ingredients": [
-          "Pizza dough",
-          "Tomato sauce",
-          "Fresh mozzarella cheese",
-          "Fresh basil leaves",
-          "Olive oil",
-          "Salt and pepper to taste"
-        ],
-        "instructions": [
-          "Preheat the oven to 475°F (245°C).",
-          "Roll out the pizza dough and spread tomato sauce evenly.",
-          "Top with slices of fresh mozzarella and fresh basil leaves.",
-          "Drizzle with olive oil and season with salt and pepper.",
-          "Bake in the preheated oven for 12-15 minutes or until the crust is golden brown.",
-          "Slice and serve hot."
-        ],
-        "prepTimeMinutes": 20,
-        "cookTimeMinutes": 15,
-        "servings": 4,
-        "difficulty": "Easy",
-        "cuisine": "Italian",
-        "caloriesPerServing": 300,
-        "tags": [
-          "Pizza",
-          "Italian"
-        ],
-        "userId": 166,
-        "image": "https://cdn.dummyjson.com/recipe-images/1.webp",
-        "rating": 4.6,
-        "reviewCount": 98,
-        "mealType": [
-          "Dinner"
-        ]
-      }
-    },
-    {
-      "id": "1a8d",
-      "userId": "2f2b",
-      "recipe": {
-        "id": 4,
-        "name": "Chicken Alfredo Pasta",
-        "ingredients": [
-          "Fettuccine pasta",
-          "Chicken breast, sliced",
-          "Heavy cream",
-          "Parmesan cheese, grated",
-          "Garlic, minced",
-          "Butter",
-          "Salt and pepper to taste",
-          "Fresh parsley for garnish"
-        ],
-        "instructions": [
-          "Cook fettuccine pasta according to package instructions.",
-          "In a pan, sauté sliced chicken in butter until fully cooked.",
-          "Add minced garlic and cook until fragrant.",
-          "Pour in heavy cream and grated Parmesan cheese. Stir until the cheese is melted.",
-          "Season with salt and pepper to taste.",
-          "Combine the Alfredo sauce with cooked pasta.",
-          "Garnish with fresh parsley before serving."
-        ],
-        "prepTimeMinutes": 15,
-        "cookTimeMinutes": 20,
-        "servings": 4,
-        "difficulty": "Medium",
-        "cuisine": "Italian",
-        "caloriesPerServing": 500,
-        "tags": [
-          "Pasta",
-          "Chicken"
-        ],
-        "userId": 136,
-        "image": "https://cdn.dummyjson.com/recipe-images/4.webp",
-        "rating": 4.9,
-        "reviewCount": 82,
-        "mealType": [
-          "Lunch",
-          "Dinner"
-        ]
-      }
-    },
-    {
-      "id": "1862",
-      "userId": "2f2b",
-      "recipe": {
-        "id": 6,
-        "name": "Quinoa Salad with Avocado",
-        "ingredients": [
-          "Quinoa, cooked",
-          "Avocado, diced",
-          "Cherry tomatoes, halved",
-          "Cucumber, diced",
-          "Red bell pepper, diced",
-          "Feta cheese, crumbled",
-          "Lemon vinaigrette dressing",
-          "Salt and pepper to taste"
-        ],
-        "instructions": [
-          "In a large bowl, combine cooked quinoa, diced avocado, halved cherry tomatoes, diced cucumber, diced red bell pepper, and crumbled feta cheese.",
-          "Drizzle with lemon vinaigrette dressing and toss to combine.",
-          "Season with salt and pepper to taste.",
-          "Chill in the refrigerator before serving."
-        ],
-        "prepTimeMinutes": 20,
-        "cookTimeMinutes": 15,
-        "servings": 4,
-        "difficulty": "Easy",
-        "cuisine": "Mediterranean",
-        "caloriesPerServing": 280,
-        "tags": [
-          "Salad",
-          "Quinoa"
-        ],
-        "userId": 197,
-        "image": "https://cdn.dummyjson.com/recipe-images/6.webp",
-        "rating": 4.4,
-        "reviewCount": 59,
-        "mealType": [
-          "Lunch",
-          "Side Dish"
-        ]
-      }
-    },
     {
       "id": "882b",
       "userId": "562d",
@@ -368,6 +245,188 @@
         "reviewCount": 26,
         "mealType": [
           "Lunch"
+        ]
+      }
+    },
+    {
+      "id": "c6c2",
+      "userId": "2f2b",
+      "recipe": {
+        "id": 11,
+        "name": "Chicken Biryani",
+        "ingredients": [
+          "Basmati rice",
+          "Chicken, cut into pieces",
+          "Onions, thinly sliced",
+          "Tomatoes, chopped",
+          "Yogurt",
+          "Ginger-garlic paste",
+          "Biryani masala",
+          "Green chilies, sliced",
+          "Fresh coriander leaves",
+          "Mint leaves",
+          "Ghee",
+          "Salt to taste"
+        ],
+        "instructions": [
+          "Marinate chicken with yogurt, ginger-garlic paste, biryani masala, and salt.",
+          "In a pot, sauté sliced onions until golden brown. Remove half for later use.",
+          "Layer marinated chicken, chopped tomatoes, half of the fried onions, and rice in the pot.",
+          "Top with ghee, green chilies, fresh coriander leaves, mint leaves, and the remaining fried onions.",
+          "Cover and cook on low heat until the rice is fully cooked and aromatic.",
+          "Serve hot, garnished with additional coriander and mint leaves."
+        ],
+        "prepTimeMinutes": 30,
+        "cookTimeMinutes": 45,
+        "servings": 6,
+        "difficulty": "Medium",
+        "cuisine": "Pakistani",
+        "caloriesPerServing": 550,
+        "tags": [
+          "Biryani",
+          "Chicken",
+          "Main course",
+          "Indian",
+          "Pakistani",
+          "Asian"
+        ],
+        "userId": 133,
+        "image": "https://cdn.dummyjson.com/recipe-images/11.webp",
+        "rating": 5,
+        "reviewCount": 32,
+        "mealType": [
+          "Lunch",
+          "Dinner"
+        ]
+      }
+    },
+    {
+      "id": "9ee1",
+      "userId": "2f2b",
+      "recipe": {
+        "id": 8,
+        "name": "Beef and Broccoli Stir-Fry",
+        "ingredients": [
+          "Beef sirloin, thinly sliced",
+          "Broccoli florets",
+          "Soy sauce",
+          "Oyster sauce",
+          "Sesame oil",
+          "Garlic, minced",
+          "Ginger, minced",
+          "Cornstarch",
+          "Cooked white rice for serving"
+        ],
+        "instructions": [
+          "In a bowl, mix soy sauce, oyster sauce, sesame oil, and cornstarch to create the sauce.",
+          "In a wok, stir-fry thinly sliced beef until browned. Remove from the wok.",
+          "Stir-fry broccoli florets, minced garlic, and minced ginger in the same wok.",
+          "Add the cooked beef back to the wok and pour the sauce over the mixture.",
+          "Stir until everything is coated and heated through.",
+          "Serve over cooked white rice."
+        ],
+        "prepTimeMinutes": 20,
+        "cookTimeMinutes": 15,
+        "servings": 4,
+        "difficulty": "Medium",
+        "cuisine": "Asian",
+        "caloriesPerServing": 380,
+        "tags": [
+          "Beef",
+          "Stir-fry",
+          "Asian"
+        ],
+        "userId": 18,
+        "image": "https://cdn.dummyjson.com/recipe-images/8.webp",
+        "rating": 4.7,
+        "reviewCount": 58,
+        "mealType": [
+          "Dinner"
+        ]
+      }
+    },
+    {
+      "id": "b164",
+      "userId": "2f2b",
+      "recipe": {
+        "id": 10,
+        "name": "Shrimp Scampi Pasta",
+        "ingredients": [
+          "Linguine pasta",
+          "Shrimp, peeled and deveined",
+          "Garlic, minced",
+          "White wine",
+          "Lemon juice",
+          "Red pepper flakes",
+          "Fresh parsley, chopped",
+          "Salt and pepper to taste"
+        ],
+        "instructions": [
+          "Cook linguine pasta according to package instructions.",
+          "In a skillet, sauté minced garlic in olive oil until fragrant.",
+          "Add shrimp and cook until pink and opaque.",
+          "Pour in white wine and lemon juice. Simmer until the sauce slightly thickens.",
+          "Season with red pepper flakes, salt, and pepper.",
+          "Toss cooked linguine in the shrimp scampi sauce.",
+          "Garnish with chopped fresh parsley before serving."
+        ],
+        "prepTimeMinutes": 15,
+        "cookTimeMinutes": 20,
+        "servings": 3,
+        "difficulty": "Medium",
+        "cuisine": "Italian",
+        "caloriesPerServing": 400,
+        "tags": [
+          "Pasta",
+          "Shrimp"
+        ],
+        "userId": 114,
+        "image": "https://cdn.dummyjson.com/recipe-images/10.webp",
+        "rating": 4.3,
+        "reviewCount": 5,
+        "mealType": [
+          "Dinner"
+        ]
+      }
+    },
+    {
+      "id": "caf8",
+      "userId": "b5c3",
+      "recipe": {
+        "id": 1,
+        "name": "Classic Margherita Pizza",
+        "ingredients": [
+          "Pizza dough",
+          "Tomato sauce",
+          "Fresh mozzarella cheese",
+          "Fresh basil leaves",
+          "Olive oil",
+          "Salt and pepper to taste"
+        ],
+        "instructions": [
+          "Preheat the oven to 475°F (245°C).",
+          "Roll out the pizza dough and spread tomato sauce evenly.",
+          "Top with slices of fresh mozzarella and fresh basil leaves.",
+          "Drizzle with olive oil and season with salt and pepper.",
+          "Bake in the preheated oven for 12-15 minutes or until the crust is golden brown.",
+          "Slice and serve hot."
+        ],
+        "prepTimeMinutes": 20,
+        "cookTimeMinutes": 15,
+        "servings": 4,
+        "difficulty": "Easy",
+        "cuisine": "Italian",
+        "caloriesPerServing": 300,
+        "tags": [
+          "Pizza",
+          "Italian"
+        ],
+        "userId": 166,
+        "image": "https://cdn.dummyjson.com/recipe-images/1.webp",
+        "rating": 4.6,
+        "reviewCount": 98,
+        "mealType": [
+          "Dinner"
         ]
       }
     }

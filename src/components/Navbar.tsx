@@ -41,10 +41,10 @@ export default function Navbar() {
                     </>
                 ) : (
                     <>
-                        <div className='nav-link'>
+                        <div className='nav-link animated-text-underline'>
                         <Link to={"/login"}>Login</Link>
                         </div>
-                        <div className='nav-link'>
+                        <div className='nav-link animated-text-underline'>
                             <Link to={"/register"}>Register</Link>
                         </div>
                     </>
